@@ -1,0 +1,1293 @@
+/**
+ * Versão: 2.1.5
+ * Descrição: Alterado o layout dos radio buttons (.form-group-radio-inline)
+ * para um grid de 2 colunas, melhorando a organização.
+ */
+
+/* Paleta de Cores ... (todo o início do arquivo permanece igual) */
+:root {
+    --primary-orange: #E96A4B;
+    --light-accent-orange: #FCE0C3;
+    --dark-orange: #BC472A;
+    --highlight-orange: #D68A3D;
+    --neutral-text: #3D3D3D;
+    --neutral-dark: #6B5F5F;
+    --background-light: #FDF8F3;
+    --background-medium: #F5EEE5;
+    --border-color: #E0D6C6;
+    --success-green: #66BB6A;
+    --error-red: #E57373;
+    --shadow-light: 0 3px 8px rgba(0, 0, 0, 0.05);
+    --shadow-medium: 0 8px 20px rgba(0, 0, 0, 0.08);
+    --bst-green: #4CAF50;
+    --bst-gray: #BDBDBD;
+    --text-esmaecido: #B0B0B0;
+    --background-esmaecido-even: #F0F0F0;
+    --background-esmaecido-odd: #FAFAFA;
+    --bg-estoque-baixo: #FFEBEE;
+}
+
+/* Reset Básico */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Base e Layout Geral */
+body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-light);
+    color: var(--neutral-text);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 450px;
+    max-width: 450px;
+    margin: 3px auto;
+    padding: 8px;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+}
+
+/* --- Cabeçalho --- */
+header {
+    background-color: var(--primary-orange);
+    color: white;
+    padding: 0.6rem 0;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.header-icon-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    flex-shrink: 0;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.header-icon-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+}
+
+.header-content h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    padding: 0 50px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.header-nav-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+}
+
+/* --- Títulos de Seção --- */
+h2.page-title {
+    color: var(--dark-orange);
+    font-size: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 12px;
+    border-bottom: 2px solid var(--highlight-orange);
+    padding-bottom: 6px;
+    font-weight: 700;
+}
+
+h2:not(.page-title) {
+    color: var(--dark-orange);
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 18px;
+    border-bottom: 3px solid var(--highlight-orange);
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+/* --- Formulários e Filtros --- */
+form {
+    background-color: var(--background-medium);
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    margin-top: 12px;
+    display: grid; /* MODIFICADO: Formulários em geral agora são grid */
+    gap: 12px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 700;
+    color: var(--dark-orange);
+    font-size: 1rem;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="date"],
+form input[type="number"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+form input[type="text"]:focus,
+form input[type="date"]:focus,
+form input[type="number"]:focus,
+form select:focus,
+form textarea:focus {
+    border-color: var(--highlight-orange);
+    box-shadow: 0 0 0 2px rgba(214, 138, 61, 0.25);
+    outline: none;
+}
+
+/* **NOVO LAYOUT PARA RADIO BUTTONS** */
+.form-group-radio-inline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas de largura igual */
+    gap: 10px; /* Espaço entre os itens */
+    align-items: center;
+}
+
+.form-group-radio-inline > div {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espaço entre o radio e o label */
+}
+/* Fim da alteração para radio buttons */
+
+.filter-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+    background-color: var(--background-medium);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#filter-form {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    box-shadow: none;
+    display: block; /* Sobrescreve o grid para o formulário de filtro */
+}
+
+/* ... (O resto do CSS permanece o mesmo) ... */
+
+.top-filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-input-group {
+    flex-grow: 1;
+    min-width: 100px;
+}
+
+.filter-buttons-group {
+    display: flex;
+    flex-shrink: 0;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.filter-group-checkboxes-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: auto;
+    padding-bottom: 5px;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 1px solid var(--border-color);
+}
+
+.checkbox-options-group {
+    display: flex;
+    flex-wrap: nowrap !important;
+    gap: 10px;
+    align-items: center;
+}
+
+.checkbox-options-group div {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    white-space: nowrap !important;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+.checkbox-options-group div label {
+    font-size: 0.8em;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+/* --- Botões --- */
+.btn {
+    background-color: var(--primary-orange);
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: var(--dark-orange);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* --- INÍCIO DA CORREÇÃO --- */
+/* Adiciona as regras de cores para os botões de sucesso e perigo */
+.btn.btn-success {
+    background-color: var(--success-green);
+}
+.btn.btn-success:hover {
+    filter: brightness(90%);
+}
+
+.btn.btn-danger {
+    background-color: var(--error-red);
+}
+.btn.btn-danger:hover {
+    filter: brightness(90%);
+}
+/* --- FIM DA CORREÇÃO --- */
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+ /* --- Modal (Janela Flutuante) --- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.modal-content {
+    background-color: #fff; /* COR ATUALIZADA: Branco (tom mais claro da lista) */
+    margin: auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-medium);
+    width: 100%;
+    max-width: 420px;
+    position: relative;
+    animation: fadeInScale 0.3s ease-out;
+}
+@keyframes fadeInScale { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--highlight-orange);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.modal-header h3 { margin: 0; color: var(--dark-orange); font-size: 1.5rem; }
+.close-button {
+    color: var(--neutral-dark);
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    line-height: 1;
+}
+.modal-body .filter-group {
+    background-color: var(--background-medium); /* COR ATUALIZADA: Bege claro (tom mais escuro da lista) */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.modal-body .filter-group:last-child {
+    margin-bottom: 0;
+}
+.modal-body .filter-group label {
+    font-weight: 700;
+    color: var(--dark-orange);
+    margin-bottom: 8px;
+    display: block;
+    font-size: 0.95rem;
+}
+.modal-body .filter-input-range {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.modal-body .filter-input-range span {
+    color: var(--neutral-dark);
+}
+.modal-body .filter-checkbox-group,
+.modal-body .filter-radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 15px;
+}
+.modal-body .filter-checkbox-group > div,
+.modal-body .filter-radio-group > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.modal-body .filter-checkbox-group label,
+.modal-body .filter-radio-group label {
+    font-weight: normal;
+    color: var(--neutral-text);
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.modal-body input[type="checkbox"] {
+    transform: scale(1.2);
+}
+.modal-footer {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.main-dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.dashboard-menu-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 12px;
+    background-color: var(--background-medium);
+    color: var(--neutral-text);
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    min-height: 70px;
+    text-decoration: none;
+    position: relative;
+}
+.dashboard-menu-button:hover {
+    background-color: var(--light-accent-orange);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    color: var(--dark-orange);
+}
+.dashboard-menu-button.alert-pending {
+    border: 2px solid var(--error-red) !important;
+    box-shadow: 0 0 10px rgba(229, 115, 115, 0.7) !important;
+}
+.pending-badge {
+    position: absolute !important; top: 8px !important; right: 8px !important;
+    background-color: var(--error-red) !important; color: white !important;
+    font-size: 0.75em !important; font-weight: bold !important; border-radius: 50% !important;
+    width: 25px !important; height: 25px !important; display: flex !important;
+    align-items: center !important; justify-content: center !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3) !important; z-index: 10;
+}
+
+/* --- Tabela de Listagem Flex (Gado, Inseminações, etc.) --- */
+.cow-list-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cow-list-table tbody tr {
+    border-bottom: 1px solid var(--border-color);
+    cursor: pointer;
+    display: flex;
+    align-items: stretch;
+    min-height: 60px;
+}
+.cow-list-table tbody tr:hover { background-color: #EEE6DB; }
+.cow-list-table td {
+    padding: 5px 10px;
+    vertical-align: middle;
+    border: none;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cow-list-table tr:nth-child(even) { background-color: var(--background-medium); }
+.col-main-info { text-align: left; padding-left: 10px; }
+.brinco-display { font-size: 1.5rem; font-weight: 800; color: var(--dark-orange); margin-bottom: 2px; line-height: 1.2; }
+.status-display { font-size: 0.9rem; color: var(--neutral-text); opacity: 0.9; line-height: 1.2; }
+.col-secondary-info { text-align: right; padding-right: 10px; align-items: flex-end; }
+.bst-group-container { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.bst-icon {
+    display: flex; align-items: center; justify-content: center; width: 32px; height: 32px;
+    border-radius: 50%; box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    flex-shrink: 0; font-size: 0.75em; color: white; font-weight: bold;
+}
+.bst-icon.bst-sim { background-color: var(--bst-green); }
+.bst-icon.bst-nao { background-color: var(--bst-gray); }
+.grupo-display { font-size: 0.9rem; color: var(--neutral-text); opacity: 0.9; }
+.details-line-left, .details-line-right { font-size: 0.85rem; color: var(--neutral-dark); opacity: 0.9; line-height: 1.2; }
+.date-display-right { font-size: 1rem; font-weight: 600; color: var(--primary-orange); margin-bottom: 2px; line-height: 1.2; }
+
+/* --- Tabela de Dados Padrão (Manejos, etc.) --- */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: var(--shadow-light);
+    border-radius: 10px;
+    overflow: hidden;
+    table-layout: fixed;
+}
+.data-table thead tr {
+    background-color: var(--highlight-orange);
+    color: white;
+    text-align: left;
+}
+.data-table th, .data-table td {
+    padding: 8px 6px;
+    border-bottom: 1px solid var(--border-color);
+    text-align: left;
+    font-size: 0.85em;
+    word-break: break-word;
+    vertical-align: middle;
+}
+.data-table th:first-child, .data-table td:first-child { padding-left: 12px; }
+.data-table th:last-child, .data-table td:last-child { padding-right: 12px; }
+.data-table .actions-column-condensed {
+    width: auto;
+    white-space: nowrap;
+    text-align: center;
+}
+.data-table .actions-column-condensed .button-group {
+    justify-content: center;
+    margin-top: 0;
+    gap: 4px;
+}
+.data-table .actions-column-condensed .button-group form {
+    margin: 0;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+    display: inline-block;
+}
+.data-table .actions-column-condensed .btn {
+    padding: 5px 10px;
+    font-size: 1em;
+    line-height: 1.2;
+}
+.data-table tbody tr:nth-child(even) {
+    background-color: var(--background-medium);
+}
+.data-table tbody tr:hover {
+    background-color: #EEE6DB;
+}
+
+/* --- Tabela de Dieta (views/estoque/index.php) --- */
+.dieta-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.dieta-table thead th {
+    background-color: var(--highlight-orange);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    padding: 8px 5px;
+    text-align: center;
+}
+.dieta-table tbody td {
+    padding: 10px 15px;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    font-size: 0.95em;
+    color: var(--neutral-text);
+    text-align: center;
+}
+.dieta-table tbody tr.esmaecido {
+    background-color: var(--background-esmaecido-odd);
+}
+.dieta-table tbody tr.esmaecido:nth-child(even) {
+    background-color: var(--background-esmaecido-even);
+}
+.dieta-table tbody tr.esmaecido td {
+    color: var(--text-esmaecido) !important;
+    font-style: italic;
+    font-weight: normal;
+}
+.dieta-table tbody tr.estoque-baixo {
+    background-color: var(--bg-estoque-baixo) !important;
+}
+.dieta-table tbody tr.estoque-baixo td {
+    color: var(--error-red) !important;
+    font-weight: bold !important;
+}
+.dieta-table tbody tr:nth-child(even):not(.esmaecido):not(.estoque-baixo) {
+    background-color: var(--background-medium);
+}
+.dieta-table tbody tr:last-child td {
+    border-bottom: none;
+}
+.dieta-table tbody tr:hover {
+    background-color: #F0EDE5;
+}
+
+/* --- Estilos para Detalhes (view.php) --- */
+.details-card {
+    background-color: var(--background-medium);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: var(--shadow-light);
+    margin-top: 20px;
+}
+.details-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.details-list li {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 60px;
+}
+.details-list li.full-width {
+    grid-column: span 2;
+}
+.details-list li strong {
+    color: var(--neutral-dark);
+    font-weight: 600;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 3px;
+    display: block;
+}
+.details-list li span {
+    color: var(--neutral-text);
+    font-size: 1.1em;
+    font-weight: 500;
+    text-align: left;
+    flex-grow: 0;
+}
+
+/* --- Agenda de Eventos --- */
+.calendar-container {
+    background-color: var(--background-medium);
+    border-radius: 10px;
+    box-shadow: var(--shadow-light);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--border-color);
+}
+.calendar-header .nav-button {
+    background: none; border: none; color: var(--primary-orange);
+    font-size: 1.2rem; cursor: pointer; transition: color 0.2s ease;
+}
+.calendar-header .nav-button:hover { color: var(--dark-orange); }
+.calendar-header .current-month-year { font-size: 1.1em; font-weight: bold; color: var(--dark-orange); }
+.mini-calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+}
+.mini-calendar .day-name {
+    font-weight: bold;
+    color: var(--dark-orange);
+    background-color: var(--light-accent-orange);
+    text-align: center;
+    padding: 8px 2px;
+    font-size: 0.85em;
+    border-radius: 4px;
+}
+.mini-calendar .day, .mini-calendar .empty-day {
+    text-align: center;
+    padding: 8px 2px;
+    font-size: 0.85em;
+    border-radius: 4px;
+}
+.mini-calendar .day {
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+    cursor: default;
+}
+.mini-calendar .day.current-day {
+    border-color: var(--primary-orange);
+    font-weight: bold;
+    color: var(--primary-orange);
+}
+.mini-calendar .day.has-event {
+    background-color: var(--highlight-orange);
+    color: white;
+    font-weight: bold;
+}
+.event-list {
+    margin-top: 15px;
+    border-radius: 10px;             /* Adiciona os cantos arredondados */
+    box-shadow: var(--shadow-light); /* Adiciona a sombra padrão do tema */
+    overflow: hidden;                /* Garante que as linhas internas não ultrapassem a borda arredondada */
+}
+.event-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-bottom: 1px solid var(--border-color);
+}
+.event-item:last-child { border-bottom: none; }
+.event-item:hover { background-color: #EEE6DB; }
+.event-day-display {
+    flex-shrink: 0;
+    width: 60px;
+    text-align: center;
+    margin-right: 15px;
+    border-right: 1.5px solid var(--border-color);
+    padding-right: 15px;
+}
+.event-day-number { font-size: 2.2em; font-weight: bold; color: var(--primary-orange); }
+.event-details-content { display: flex; flex-direction: column; flex-grow: 1; text-align: left; }
+.event-brinco-type-group { display: flex; align-items: baseline; gap: 8px; margin-bottom: 2px; }
+.event-brinco-highlight-large { font-size: 1.4em; font-weight: bold; color: var(--dark-orange); }
+.event-type-extra-small { font-size: 0.7em; color: var(--neutral-dark); opacity: 0.8; }
+.event-title-display { font-size: 0.9em; color: var(--neutral-text); }
+.event-actions { display: flex; flex-direction: column; gap: 5px; margin-left: 15px; }
+.event-actions .action-icon {
+    background: none; border: none; color: var(--neutral-dark);
+    font-size: 1.1em; cursor: pointer; padding: 5px;
+}
+
+
+/* --- Agenda de Eventos --- */
+
+/* ... (estilos existentes do calendário e .event-item) ... */
+
+.event-item:hover { background-color: #EEE6DB; }
+
+/* Adicione as regras abaixo */
+.event-list .event-item.odd-row {
+    background-color: #fff; /* Cor mais clara (branca) para as linhas ímpares */
+}
+
+.event-list .event-item.even-row {
+    background-color: var(--background-medium); /* Tom de bege para as linhas pares, como na lista de gado */
+}
+/* --- Galeria de Fotos --- */
+.section-title {
+    color: var(--dark-orange);
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 5px;
+}
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+.photo-item {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: var(--shadow-light);
+    display: flex;
+    flex-direction: column;
+}
+.photo-item img.lightbox-trigger {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.photo-item img.lightbox-trigger:hover {
+    transform: scale(1.05);
+}
+.photo-actions {
+    padding: 8px;
+    background-color: var(--background-medium);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+.photo-caption {
+    padding: 0;
+    font-size: 0.8em;
+    color: var(--neutral-text);
+    margin: 0;
+    flex-grow: 1;
+    text-align: left;
+}
+.btn-delete-photo {
+    background: none;
+    border: none;
+    color: var(--error-red);
+    cursor: pointer;
+    font-size: 1em;
+    padding: 2px 5px;
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+.btn-delete-photo:hover {
+    color: var(--dark-orange);
+}
+
+/* Adicione estas regras para dar destaque aos ícones de ação */
+.event-actions .action-icon.edit-icon {
+    color: var(--highlight-orange); /* Tom de laranja/amarelo do tema */
+    font-size: 1.2em; /* Um pouco maior para mais destaque */
+}
+
+.event-actions .action-icon.complete-icon {
+    color: var(--success-green); /* Verde de sucesso do tema */
+    font-size: 1.4em; /* Um pouco maior para mais destaque */
+	font-weight: 500;
+}
+
+/* Efeito de hover para ambos os ícones */
+.event-actions .action-icon:hover {
+    transform: scale(1.15); /* Aumenta o ícone ao passar o mouse */
+    filter: brightness(1.1); /* Deixa a cor um pouco mais viva */
+}
+
+/* --- Lightbox --- */
+.lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    animation: fadeInScale 0.3s ease-out;
+}
+.lightbox-close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+.lightbox-close:hover {
+    color: var(--border-color);
+}
+
+/* Estilos para o Rodapé */
+footer {
+    background-color: var(--primary-orange); /* Define a cor de fundo laranja, a mesma do cabeçalho */
+    color: white;                            /* Define a cor do texto como branco para contraste */
+    text-align: center;                      /* Centraliza o texto */
+    padding: 1rem 0;                         /* Adiciona um espaçamento interno */
+    margin-top: 15px;                        /* Adiciona um espaço acima do rodapé */
+    border-radius: 0 0 10px 10px;            /* Arredonda as bordas inferiores para combinar com o cabeçalho */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);/* Sombra de texto sutil para combinar com o cabeçalho */
+}
+
+footer p {
+    margin: 0;                               /* Remove a margem padrão do parágrafo */
+    font-size: 0.9em;                        /* Ajusta o tamanho da fonte */
+}
+
+/* --- Redução do Calendário de Eventos (50%) --- */
+
+/* Ajusta o cabeçalho do calendário */
+.calendar-header .current-month-year {
+    font-size: 1rem; /* Reduz o tamanho do texto "Mês Ano" */
+}
+.calendar-header .nav-button {
+    font-size: 1rem; /* Reduz o tamanho das setas de navegação */
+}
+
+/* Ajusta a grade do mini-calendário */
+.mini-calendar {
+    grid-gap: 3px; /* Diminui o espaço entre os dias */
+}
+.mini-calendar .day-name, .mini-calendar .day {
+    padding: 4px 1px;   /* Diminui o preenchimento interno dos dias */
+    font-size: 0.75em; /* Reduz o tamanho da fonte dos números dos dias */
+}
+
+/* Ajusta a lista de eventos abaixo do calendário */
+.event-item {
+    padding: 8px 10px; /* Diminui o espaçamento dos itens na lista */
+}
+
+.event-day-display {
+    width: 45px;       /* Diminui a largura da coluna do dia */
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.event-day-number {
+    font-size: 1.8em; /* Reduz o tamanho do número do dia */
+}
+
+.event-brinco-highlight-large {
+    font-size: 1.1em; /* Reduz o tamanho da fonte do brinco */
+}
+
+.event-title-display {
+    font-size: 0.8em; /* Reduz o tamanho da fonte do título do evento */
+}
+
+.event-actions .action-icon {
+    font-size: 1em; /* Ajusta o tamanho dos ícones de ação */
+    padding: 3px;
+}
+
+.event-actions .action-icon.complete-icon {
+    font-size: 1.2em; /* Ajusta o ícone de concluir */
+}
+
+/* --- CORREÇÃO FINAL PARA INPUTS DO MODAL --- */
+/* Força o ajuste de largura em todos os inputs dentro dos filtros de faixa de valores do modal */
+.modal-body .filter-input-range input {
+    width: 100% !important; /* Garante que o flex item tenha base para cálculo */
+    flex-basis: 0;          /* Permite que o item encolha a partir de sua base */
+    flex-grow: 1;           /* Permite que o item cresça para ocupar o espaço */
+    min-width: 0;           /* Essencial para permitir que o flex item encolha abaixo do seu tamanho de conteúdo */
+}
+
+/* --- Estilo Otimizado para Modal de Gráfico (Largura e Altura Máximas) --- */
+
+/* 1. Remove o padding lateral do contêiner do modal do gráfico */
+#growthChartModal {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+/* 2. Faz o conteúdo do modal ocupar 100% da largura disponível */
+.modal-content-wide {
+    width: 100%;
+    max-width: none; /* Remove qualquer limite máximo de largura */
+}
+
+/* 3. Define a altura do corpo do modal e remove seu padding */
+.modal-content-wide .modal-body {
+    padding: 0;
+    height: 30vh; /* Mantém a altura aumentada */
+	position: relative;
+}
+
+/* Reduz drasticamente a fonte do título específico do gráfico */
+#chartModalTitle {
+    font-size: 1.0rem; /* Reduzido do padrão 1.5rem */
+    font-weight: 600;  /* Deixa a fonte um pouco menos pesada */
+}
+
+/* --- Regra de Correção Específica para o Campo de Senha do Login --- */
+form input[type="password"] {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+form input[type="password"]:focus {
+    border-color: var(--highlight-orange);
+    box-shadow: 0 0 0 2px rgba(214, 138, 61, 0.25);
+    outline: none;
+}
+
+.disabled-link {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none; /* Previne qualquer evento de clique */
+}
+
+/* =================================================== */
+/* === ESTILOS PARA O FORMULÁRIO FINANCEIRO UNIFICADO === */
+/* =================================================== */
+
+/* Reduz o tamanho da fonte dos labels e inputs no formulário */
+#lancamentoForm label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+#lancamentoForm .select2-container .select2-selection--single .select2-selection__rendered,
+#lancamentoForm input, #lancamentoForm select {
+    font-size: 0.9rem;
+    padding: 7px 9px;
+}
+
+/* Ajusta a altura do Select2 para combinar com os inputs */
+#lancamentoForm .select2-container .select2-selection--single {
+    height: 35px; 
+}
+#lancamentoForm .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 33px;
+}
+
+/* Reorganiza a grade principal de 3 colunas */
+.form-grid-3col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+/* Estiliza o fieldset e a legenda */
+#lancamentoForm fieldset {
+    border: 1px solid var(--border-color);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+#lancamentoForm fieldset legend {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--dark-orange);
+    padding: 0 5px;
+}
+
+/* NOVA GRADE PARA A LINHA DE ITENS - Otimizada para telas pequenas */
+.finance-item-row {
+    display: grid;
+    /* Colunas: Produto, Categoria, Qtd, V. Unit, Botão */
+    grid-template-columns: 2.5fr 2.5fr 1fr 1.2fr auto;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* =================================================== */
+/* === ESTILOS PARA FORMULÁRIOS UNIFICADOS E COMPACTOS === */
+/* =================================================== */
+
+/* Regras gerais para formulários com esta classe */
+.unified-form label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.unified-form .select2-container .select2-selection--single .select2-selection__rendered,
+.unified-form input, .unified-form select {
+    font-size: 0.9rem;
+    padding: 7px 9px;
+}
+.unified-form .select2-container .select2-selection--single {
+    height: 35px; 
+}
+.unified-form .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 33px;
+}
+
+/* Grids para organização dentro do formulário */
+.unified-form .form-grid-2col,
+.unified-form .form-grid-3col {
+    display: grid;
+    gap: 12px;
+}
+.unified-form .form-grid-2col {
+    grid-template-columns: repeat(2, 1fr);
+}
+.unified-form .form-grid-3col {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Estilo para fieldset e legenda */
+.unified-form fieldset {
+    border: 1px solid var(--border-color);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.unified-form fieldset legend {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--dark-orange);
+    padding: 0 5px;
+}
+
+/* Linha de itens do formulário financeiro */
+.finance-item-row {
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr 1fr 1.2fr auto;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* =================================================== */
+/* === ESTILOS PARA O FORMULÁRIO DE CADASTRO DE PRODUTO === */
+/* =================================================== */
+
+#produto-form label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+#produto-form input, 
+#produto-form select,
+#produto-form .select2-container .select2-selection--single {
+    font-size: 0.9rem;
+    padding: 7px 9px;
+    height: 35px;
+}
+
+#produto-form .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 33px;
+}
+
+/* Classe para grid de 2 colunas */
+#produto-form .form-grid-2col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+/* =================================================== */
+/* === ESTILOS PARA FORMULÁRIOS COMPACTOS (FINAL) === */
+/* =================================================== */
+
+/* Classe principal para aplicar a um formulário */
+.form-compacto label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.form-compacto .select2-container .select2-selection--single .select2-selection__rendered,
+.form-compacto input, .form-compacto select {
+    font-size: 0.9rem;
+    padding: 7px 9px;
+}
+.form-compacto .select2-container .select2-selection--single {
+    height: 35px; 
+}
+.form-compacto .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 33px;
+}
+
+/* Classes para grids de layout */
+.form-compacto .form-grid-2col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+.form-compacto .form-grid-3col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+/* Hierarquia para o Select2 */
+.select2-result-parent {
+    font-weight: bold;
+}
+.select2-result-child {
+    padding-left: 1.2em;
+}
+/* Estilo de destaque para categorias pai na listagem */
+.data-table tbody tr.categoria-pai td {
+    font-weight: 700; /* Negrito */
+    color: #000;      /* Preto */
+}
+
+/* Fundo destacado para a linha da categoria pai */
+.data-table tbody tr.categoria-pai {
+    background-color: var(--background-medium);
+    border-bottom: 2px solid var(--border-color); /* Adiciona uma borda mais forte para separar os grupos */
+}
+
+/* Cores de fundo alternadas para os grupos de categorias, nos tons do sistema */
+.data-table tbody tr.group-even {
+    background-color: var(--background-light); /* Alterado de branco para o tom de bege mais claro */
+}
+.data-table tbody tr.group-odd {
+    background-color: var(--background-medium); /* Alterado de bege claro para o tom de bege médio */
+}
+
+/*
+  Novos estilos para o layout da lista financeira (index.php)
+*/
+.secondary-info-container {
+    display: flex;
+    justify-content: flex-end; /* Alinha todo o conteúdo à direita */
+    align-items: center;       /* Centraliza verticalmente os blocos */
+    width: 100%;
+    gap: 15px;                 /* Espaço entre o bloco de dados e o de botões */
+}
+
+.data-block {
+    display: flex;
+    flex-direction: column;    /* Empilha os dados (valor, tipo, parcelas) */
+    align-items: flex-end;     /* Alinha o texto dos dados à direita */
+    flex-shrink: 0;
+}
+
+.actions-block {
+    display: flex;
+    flex-direction: column;    /* Empilha os botões na vertical */
+    gap: 5px;                  /* Espaço entre os botões */
+}
+
+.actions-block .btn {
+    margin: 0;                 /* Remove margens padrão do botão no grupo */
+}
+
+/* Estilos genéricos para botões de ícone de ação */
+.action-icon {
+    background: none !important; /* Garante que não haja fundo */
+	background-color: transparent; /* ADICIONE ESTA LINHA */
+    border: none !important;     /* Garante que não haja borda */
+    color: var(--neutral-dark);
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.2s ease, color 0.2s ease;
+    box-shadow: none !important; /* Garante que não haja sombra */
+}
+
+.action-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Cores específicas por tipo de ação */
+.action-icon.edit-icon {
+    color: var(--highlight-orange);
+}
+
+.action-icon.delete-icon {
+    color: var(--error-red);
+}

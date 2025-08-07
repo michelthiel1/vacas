@@ -1,0 +1,29 @@
+[2025-06-25 17:21:41] Ação 'create' iniciada.
+[2025-06-25 17:21:41] Itens recebidos do formulário: Array
+(
+    [0] => Array
+        (
+            [produto_id] => 14
+            [quantidade] => 10
+            [valor_unitario] => 55
+        )
+
+)
+
+[2025-06-25 17:21:41] Lançamento financeiro ID: 19 criado com sucesso.
+[2025-06-25 17:21:41] Iniciando lógica de atualização de estoque...
+[2025-06-25 17:21:41] Processando item ID: 14 | Qtd Comprada: 10 | Valor Unit. Compra: 55
+[2025-06-25 17:21:41] Informações do produto encontradas: Array
+(
+    [Id] => 14
+    [Produto] => teste
+    [id_categoria_financeira] => 10
+    [unidade_compra] => saco
+    [unidade_consumo] => kg
+    [fator_conversao] => 30.0000
+    [valor_compra] => 99.00
+    [Valor] => 3.3
+)
+
+[2025-06-25 17:21:41] CÁLCULO: 10 (comprada) * 30 (fator) = 300 (a adicionar no estoque)
+[2025-06-25 17:21:41] Método entradaEstoque() foi chamado.

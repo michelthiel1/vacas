@@ -1,0 +1,190 @@
+[27-Jun-2025 01:07:11 Europe/Berlin] GadoController: Ação recebida: toggle_cio_monitoring
+[27-Jun-2025 01:07:15 Europe/Berlin] GadoController: Ação recebida: toggle_cio_monitoring
+[27-Jun-2025 01:07:19 Europe/Berlin] GadoController: Ação recebida: toggle_cio_monitoring
+[27-Jun-2025 15:03:04 Europe/Berlin] GadoController: Ação recebida: update
+[27-Jun-2025 15:03:04 Europe/Berlin] GadoController: Processando ação 'update'.
+[29-Jun-2025 16:45:13 Europe/Berlin] GadoController: Ação recebida: update
+[29-Jun-2025 16:45:13 Europe/Berlin] GadoController: Processando ação 'update'.
+[29-Jun-2025 16:45:48 Europe/Berlin] GadoController: Ação recebida: update
+[29-Jun-2025 16:45:48 Europe/Berlin] GadoController: Processando ação 'update'.
+[29-Jun-2025 16:46:54 Europe/Berlin] GadoController: Ação recebida: update
+[29-Jun-2025 16:46:54 Europe/Berlin] GadoController: Processando ação 'update'.
+[29-Jun-2025 16:47:22 Europe/Berlin] GadoController: Ação recebida: update
+[29-Jun-2025 16:47:22 Europe/Berlin] GadoController: Processando ação 'update'.
+[30-Jun-2025 14:33:43 Europe/Berlin] GadoController: Ação recebida: update
+[30-Jun-2025 14:33:43 Europe/Berlin] GadoController: Processando ação 'update'.
+[30-Jun-2025 14:34:04 Europe/Berlin] GadoController: Ação recebida: update
+[30-Jun-2025 14:34:04 Europe/Berlin] GadoController: Processando ação 'update'.
+[30-Jun-2025 19:13:56 Europe/Berlin] GadoController: Ação recebida: update
+[30-Jun-2025 19:13:56 Europe/Berlin] GadoController: Processando ação 'update'.
+[30-Jun-2025 19:17:52 Europe/Berlin] GadoController: Ação recebida: update
+[30-Jun-2025 19:17:52 Europe/Berlin] GadoController: Processando ação 'update'.
+[30-Jun-2025 19:20:05 Europe/Berlin] GadoController: Ação recebida: update
+[30-Jun-2025 19:20:05 Europe/Berlin] GadoController: Processando ação 'update'.
+[30-Jun-2025 19:22:40 Europe/Berlin] GadoController: Ação recebida: update
+[30-Jun-2025 19:22:40 Europe/Berlin] GadoController: Processando ação 'update'.
+[30-Jun-2025 19:24:05 Europe/Berlin] GadoController: Ação recebida: update
+[30-Jun-2025 19:24:05 Europe/Berlin] GadoController: Processando ação 'update'.
+[30-Jun-2025 19:34:13 Europe/Berlin] GadoController: Ação recebida: update
+[30-Jun-2025 19:34:13 Europe/Berlin] GadoController: Processando ação 'update'.
+[30-Jun-2025 19:36:06 Europe/Berlin] GadoController: Ação recebida: update
+[30-Jun-2025 19:36:06 Europe/Berlin] GadoController: Processando ação 'update'.
+[30-Jun-2025 19:37:09 Europe/Berlin] GadoController: Ação recebida: update
+[30-Jun-2025 19:37:09 Europe/Berlin] GadoController: Processando ação 'update'.
+[30-Jun-2025 19:37:09 Europe/Berlin] GadoController: Detectada mudança de status para 'Prenha' para o animal ID: 31.
+[30-Jun-2025 19:37:09 Europe/Berlin] GadoController: Registro de manejo automático (ID: 74) criado para o diagnóstico.
+[30-Jun-2025 19:37:09 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[30-Jun-2025 19:37:09 Europe/Berlin] GadoController: Eventos e datas de prenhez criados com sucesso para o animal ID: 31.
+[30-Jun-2025 19:40:03 Europe/Berlin] GadoController: Ação recebida: update
+[30-Jun-2025 19:40:03 Europe/Berlin] GadoController: Processando ação 'update'.
+[30-Jun-2025 19:49:32 Europe/Berlin] GadoController: Ação recebida: update
+[30-Jun-2025 19:49:32 Europe/Berlin] GadoController: Processando ação 'update'.
+[01-Jul-2025 03:55:12 Europe/Berlin] GadoController: Ação recebida: toggle_cio_monitoring
+[01-Jul-2025 03:56:04 Europe/Berlin] GadoController: Ação recebida: toggle_cio_monitoring
+[01-Jul-2025 03:56:30 Europe/Berlin] GadoController: Ação recebida: toggle_cio_monitoring
+[01-Jul-2025 04:03:43 Europe/Berlin] GadoController: Ação recebida: toggle_cio_monitoring
+[01-Jul-2025 04:03:47 Europe/Berlin] GadoController: Ação recebida: toggle_cio_monitoring
+[01-Jul-2025 04:14:44 Europe/Berlin] GadoController: Ação recebida: toggle_cio_monitoring
+[02-Jul-2025 01:12:05 Europe/Berlin] GadoController: Ação recebida: update
+[02-Jul-2025 01:12:05 Europe/Berlin] GadoController: Processando ação 'update'.
+[02-Jul-2025 01:56:11 Europe/Berlin] GadoController: Ação recebida: toggle_cio_monitoring
+[06-Jul-2025 16:00:42 Europe/Berlin] GadoController: Ação recebida: update
+[06-Jul-2025 16:00:42 Europe/Berlin] GadoController: Processando ação 'update'.
+[06-Jul-2025 16:46:19 Europe/Berlin] GadoController: Ação recebida: update
+[06-Jul-2025 16:46:19 Europe/Berlin] GadoController: Processando ação 'update'.
+[06-Jul-2025 16:46:47 Europe/Berlin] GadoController: Ação recebida: update
+[06-Jul-2025 16:46:47 Europe/Berlin] GadoController: Processando ação 'update'.
+[08-Jul-2025 21:32:25 Europe/Berlin] GadoController: Ação recebida: create
+[08-Jul-2025 21:32:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '314' for key 'brinco' in C:\xampp\htdocs\vacas\models\Gado.php:178
+Stack trace:
+#0 C:\xampp\htdocs\vacas\models\Gado.php(178): PDOStatement->execute()
+#1 C:\xampp\htdocs\vacas\controllers\GadoController.php(52): Gado->create()
+#2 {main}
+  thrown in C:\xampp\htdocs\vacas\models\Gado.php on line 178
+[08-Jul-2025 21:33:15 Europe/Berlin] GadoController: Ação recebida: create
+[08-Jul-2025 21:33:15 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[08-Jul-2025 21:33:15 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[08-Jul-2025 21:33:15 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[10-Jul-2025 12:24:07 Europe/Berlin] GadoController: Ação recebida: update
+[10-Jul-2025 12:24:07 Europe/Berlin] GadoController: Processando ação 'update'.
+[11-Jul-2025 20:26:34 Europe/Berlin] GadoController: Ação recebida: create
+[11-Jul-2025 20:26:34 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[11-Jul-2025 20:26:34 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[11-Jul-2025 20:26:34 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[11-Jul-2025 20:29:55 Europe/Berlin] GadoController: Ação recebida: create
+[11-Jul-2025 20:29:55 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[11-Jul-2025 20:29:55 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[11-Jul-2025 20:29:55 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[14-Jul-2025 23:04:08 Europe/Berlin] GadoController: Ação recebida: toggle_cio_monitoring
+[18-Jul-2025 02:57:03 Europe/Berlin] GadoController: Ação recebida: create
+[18-Jul-2025 02:57:03 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 02:57:03 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 02:57:03 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 02:57:14 Europe/Berlin] GadoController: Ação recebida: create
+[18-Jul-2025 02:57:14 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 02:57:14 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 02:57:14 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 02:57:26 Europe/Berlin] GadoController: Ação recebida: create
+[18-Jul-2025 02:57:26 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 02:57:26 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 02:57:26 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 02:57:36 Europe/Berlin] GadoController: Ação recebida: create
+[18-Jul-2025 02:57:36 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 02:57:36 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 02:57:36 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 13:15:03 Europe/Berlin] GadoController: Ação recebida: create
+[18-Jul-2025 13:15:03 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 160
+[18-Jul-2025 13:15:03 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 161
+[18-Jul-2025 13:15:03 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\vacas\models\Gado.php:185
+Stack trace:
+#0 C:\xampp\htdocs\vacas\models\Gado.php(185): PDOStatement->execute()
+#1 C:\xampp\htdocs\vacas\controllers\GadoController.php(52): Gado->create()
+#2 {main}
+  thrown in C:\xampp\htdocs\vacas\models\Gado.php on line 185
+[18-Jul-2025 13:15:27 Europe/Berlin] GadoController: Ação recebida: create
+[18-Jul-2025 13:15:27 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 160
+[18-Jul-2025 13:15:27 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 161
+[18-Jul-2025 13:15:27 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\vacas\models\Gado.php:185
+Stack trace:
+#0 C:\xampp\htdocs\vacas\models\Gado.php(185): PDOStatement->execute()
+#1 C:\xampp\htdocs\vacas\controllers\GadoController.php(52): Gado->create()
+#2 {main}
+  thrown in C:\xampp\htdocs\vacas\models\Gado.php on line 185
+[18-Jul-2025 13:16:08 Europe/Berlin] GadoController: Ação recebida: create
+[18-Jul-2025 13:16:08 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 160
+[18-Jul-2025 13:16:08 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 161
+[18-Jul-2025 13:16:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\vacas\models\Gado.php:185
+Stack trace:
+#0 C:\xampp\htdocs\vacas\models\Gado.php(185): PDOStatement->execute()
+#1 C:\xampp\htdocs\vacas\controllers\GadoController.php(52): Gado->create()
+#2 {main}
+  thrown in C:\xampp\htdocs\vacas\models\Gado.php on line 185
+[18-Jul-2025 14:26:45 Europe/Berlin] GadoController: Ação recebida: create
+[18-Jul-2025 14:26:45 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 160
+[18-Jul-2025 14:26:45 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 161
+[18-Jul-2025 14:26:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\vacas\models\Gado.php:185
+Stack trace:
+#0 C:\xampp\htdocs\vacas\models\Gado.php(185): PDOStatement->execute()
+#1 C:\xampp\htdocs\vacas\controllers\GadoController.php(52): Gado->create()
+#2 {main}
+  thrown in C:\xampp\htdocs\vacas\models\Gado.php on line 185
+[18-Jul-2025 15:13:45 Europe/Berlin] GadoController: Ação recebida: create
+[18-Jul-2025 15:13:45 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 160
+[18-Jul-2025 15:13:45 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 161
+[18-Jul-2025 15:13:45 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 15:13:45 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 15:13:45 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Evento.php on line 100
+[18-Jul-2025 15:23:07 Europe/Berlin] GadoController: Ação recebida: update
+[18-Jul-2025 15:23:07 Europe/Berlin] GadoController: Processando ação 'update'.
+[18-Jul-2025 15:23:07 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 235
+[18-Jul-2025 15:23:07 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 236
+[18-Jul-2025 15:23:27 Europe/Berlin] GadoController: Ação recebida: update
+[18-Jul-2025 15:23:27 Europe/Berlin] GadoController: Processando ação 'update'.
+[18-Jul-2025 15:23:27 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 235
+[18-Jul-2025 15:23:27 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 236
+[18-Jul-2025 15:23:47 Europe/Berlin] GadoController: Ação recebida: update
+[18-Jul-2025 15:23:47 Europe/Berlin] GadoController: Processando ação 'update'.
+[18-Jul-2025 15:23:47 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 235
+[18-Jul-2025 15:23:47 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 236
+[18-Jul-2025 15:24:31 Europe/Berlin] GadoController: Ação recebida: update
+[18-Jul-2025 15:24:31 Europe/Berlin] GadoController: Processando ação 'update'.
+[18-Jul-2025 15:24:31 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 235
+[18-Jul-2025 15:24:31 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 236
+[18-Jul-2025 15:31:06 Europe/Berlin] GadoController: Ação recebida: update
+[18-Jul-2025 15:31:06 Europe/Berlin] GadoController: Processando ação 'update'.
+[18-Jul-2025 15:31:06 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 240
+[18-Jul-2025 15:31:06 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 241
+[18-Jul-2025 15:31:19 Europe/Berlin] GadoController: Ação recebida: update
+[18-Jul-2025 15:31:19 Europe/Berlin] GadoController: Processando ação 'update'.
+[18-Jul-2025 15:31:19 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 240
+[18-Jul-2025 15:31:19 Europe/Berlin] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\vacas\models\Gado.php on line 241
+[18-Jul-2025 15:40:01 Europe/Berlin] GadoController: Ação recebida: update
+[18-Jul-2025 15:40:01 Europe/Berlin] GadoController: Processando ação 'update'.
+[18-Jul-2025 15:40:10 Europe/Berlin] GadoController: Ação recebida: update
+[18-Jul-2025 15:40:10 Europe/Berlin] GadoController: Processando ação 'update'.
+[18-Jul-2025 15:40:18 Europe/Berlin] GadoController: Ação recebida: update
+[18-Jul-2025 15:40:18 Europe/Berlin] GadoController: Processando ação 'update'.
+[18-Jul-2025 18:32:00 Europe/Berlin] GadoController: Ação recebida: update
+[18-Jul-2025 18:32:00 Europe/Berlin] GadoController: Processando ação 'update'.
+[18-Jul-2025 18:32:18 Europe/Berlin] GadoController: Ação recebida: update
+[18-Jul-2025 18:32:18 Europe/Berlin] GadoController: Processando ação 'update'.
+[18-Jul-2025 18:32:34 Europe/Berlin] GadoController: Ação recebida: update
+[18-Jul-2025 18:32:34 Europe/Berlin] GadoController: Processando ação 'update'.
+[18-Jul-2025 18:33:18 Europe/Berlin] GadoController: Ação recebida: update
+[18-Jul-2025 18:33:18 Europe/Berlin] GadoController: Processando ação 'update'.
+[20-Jul-2025 02:17:50 Europe/Berlin] GadoController: Ação recebida: update
+[20-Jul-2025 02:17:50 Europe/Berlin] GadoController: Processando ação 'update'.
+[20-Jul-2025 03:00:47 Europe/Berlin] GadoController: Ação recebida: update
+[20-Jul-2025 03:00:47 Europe/Berlin] GadoController: Processando ação 'update'.
+[24-Jul-2025 23:22:08 Europe/Berlin] GadoController: Ação recebida: update
+[24-Jul-2025 23:22:08 Europe/Berlin] GadoController: Processando ação 'update'.
+[26-Jul-2025 01:22:58 Europe/Berlin] GadoController: Ação recebida: update
+[26-Jul-2025 01:22:58 Europe/Berlin] GadoController: Processando ação 'update'.
+[30-Jul-2025 04:06:39 Europe/Berlin] GadoController: Ação recebida: update
+[30-Jul-2025 04:06:39 Europe/Berlin] GadoController: Processando ação 'update'.
+[03-Aug-2025 18:16:09 Europe/Berlin] GadoController: Ação recebida: update
+[03-Aug-2025 18:16:09 Europe/Berlin] GadoController: Processando ação 'update'.
+[05-Aug-2025 18:53:20 Europe/Berlin] GadoController: Ação recebida: update
+[05-Aug-2025 18:53:20 Europe/Berlin] GadoController: Processando ação 'update'.
+[05-Aug-2025 18:53:53 Europe/Berlin] GadoController: Ação recebida: update
+[05-Aug-2025 18:53:53 Europe/Berlin] GadoController: Processando ação 'update'.

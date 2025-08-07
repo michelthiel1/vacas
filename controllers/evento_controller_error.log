@@ -1,0 +1,766 @@
+[25-Jun-2025 16:54:56 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[25-Jun-2025 16:54:56 Europe/Berlin] ==================================================
+[25-Jun-2025 16:54:56 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[25-Jun-2025 16:54:56 Europe/Berlin] EventoController: Tentando concluir evento ID: 59
+[25-Jun-2025 16:54:56 Europe/Berlin] EventoController: Evento ID 59 lido com sucesso. Verificando recorrência...
+[25-Jun-2025 16:54:56 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 22. Buscando detalhes do manejo...
+[25-Jun-2025 16:54:56 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Vacinas', Rec_Meses='', Rec_Dias=''
+[25-Jun-2025 16:54:56 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[25-Jun-2025 16:54:56 Europe/Berlin] ==================================================
+[25-Jun-2025 16:55:06 Europe/Berlin] EventoController: Ação recebida: update
+[25-Jun-2025 16:55:06 Europe/Berlin] EventoController: Processando ação 'update'.
+[25-Jun-2025 16:55:23 Europe/Berlin] EventoController: Ação recebida: update
+[25-Jun-2025 16:55:23 Europe/Berlin] EventoController: Processando ação 'update'.
+[29-Jun-2025 16:48:29 Europe/Berlin] EventoController: Ação recebida: update
+[29-Jun-2025 16:48:29 Europe/Berlin] EventoController: Processando ação 'update'.
+[29-Jun-2025 16:48:41 Europe/Berlin] EventoController: Ação recebida: update
+[29-Jun-2025 16:48:41 Europe/Berlin] EventoController: Processando ação 'update'.
+[29-Jun-2025 16:48:50 Europe/Berlin] EventoController: Ação recebida: update
+[29-Jun-2025 16:48:50 Europe/Berlin] EventoController: Processando ação 'update'.
+[29-Jun-2025 16:49:01 Europe/Berlin] EventoController: Ação recebida: update
+[29-Jun-2025 16:49:01 Europe/Berlin] EventoController: Processando ação 'update'.
+[29-Jun-2025 22:07:39 Europe/Berlin] EventoController: Ação recebida: create
+[29-Jun-2025 22:07:39 Europe/Berlin] EventoController: Processando ação 'create'.
+[01-Jul-2025 15:44:48 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[01-Jul-2025 15:44:48 Europe/Berlin] ==================================================
+[01-Jul-2025 15:44:48 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[01-Jul-2025 15:44:48 Europe/Berlin] EventoController: Tentando concluir evento ID: 56
+[01-Jul-2025 15:44:48 Europe/Berlin] EventoController: Evento ID 56 lido com sucesso. Verificando recorrência...
+[01-Jul-2025 15:44:48 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 19. Buscando detalhes do manejo...
+[01-Jul-2025 15:44:48 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='BST', Rec_Meses='', Rec_Dias='12'
+[01-Jul-2025 15:44:48 Europe/Berlin] EventoController: CONDIÇÕES ATENDIDAS! Criando próximo evento recorrente com intervalo de P12D.
+[01-Jul-2025 15:44:48 Europe/Berlin] EventoController: SUCESSO! Novo evento recorrente criado.
+[01-Jul-2025 15:44:48 Europe/Berlin] ==================================================
+[01-Jul-2025 15:44:51 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[01-Jul-2025 15:44:51 Europe/Berlin] ==================================================
+[01-Jul-2025 15:44:51 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[01-Jul-2025 15:44:51 Europe/Berlin] EventoController: Tentando concluir evento ID: 116
+[01-Jul-2025 15:44:51 Europe/Berlin] EventoController: Evento ID 116 lido com sucesso. Verificando recorrência...
+[01-Jul-2025 15:44:51 Europe/Berlin] EventoController: Evento ID 116 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[01-Jul-2025 15:44:51 Europe/Berlin] ==================================================
+[04-Jul-2025 01:05:40 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[04-Jul-2025 01:05:40 Europe/Berlin] ==================================================
+[04-Jul-2025 01:05:40 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[04-Jul-2025 01:05:40 Europe/Berlin] EventoController: Tentando concluir evento ID: 7
+[04-Jul-2025 01:05:40 Europe/Berlin] EventoController: Evento ID 7 lido com sucesso. Verificando recorrência...
+[04-Jul-2025 01:05:40 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 3. Buscando detalhes do manejo...
+[04-Jul-2025 01:05:40 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Secagem', Rec_Meses='', Rec_Dias=''
+[04-Jul-2025 01:05:40 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[04-Jul-2025 01:05:40 Europe/Berlin] ==================================================
+[04-Jul-2025 01:06:15 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[04-Jul-2025 01:06:15 Europe/Berlin] ==================================================
+[04-Jul-2025 01:06:15 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[04-Jul-2025 01:06:15 Europe/Berlin] EventoController: Tentando concluir evento ID: 28
+[04-Jul-2025 01:06:15 Europe/Berlin] EventoController: Evento ID 28 lido com sucesso. Verificando recorrência...
+[04-Jul-2025 01:06:15 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 10. Buscando detalhes do manejo...
+[04-Jul-2025 01:06:15 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Secagem', Rec_Meses='', Rec_Dias=''
+[04-Jul-2025 01:06:15 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[04-Jul-2025 01:06:15 Europe/Berlin] ==================================================
+[06-Jul-2025 16:03:02 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[06-Jul-2025 16:03:02 Europe/Berlin] ==================================================
+[06-Jul-2025 16:03:02 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[06-Jul-2025 16:03:02 Europe/Berlin] EventoController: Tentando concluir evento ID: 2
+[06-Jul-2025 16:03:02 Europe/Berlin] EventoController: Evento ID 2 lido com sucesso. Verificando recorrência...
+[06-Jul-2025 16:03:02 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 1. Buscando detalhes do manejo...
+[06-Jul-2025 16:03:02 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Secagem', Rec_Meses='', Rec_Dias=''
+[06-Jul-2025 16:03:02 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[06-Jul-2025 16:03:02 Europe/Berlin] ==================================================
+[06-Jul-2025 16:03:05 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[06-Jul-2025 16:03:05 Europe/Berlin] ==================================================
+[06-Jul-2025 16:03:05 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[06-Jul-2025 16:03:05 Europe/Berlin] EventoController: Tentando concluir evento ID: 32
+[06-Jul-2025 16:03:05 Europe/Berlin] EventoController: Evento ID 32 lido com sucesso. Verificando recorrência...
+[06-Jul-2025 16:03:05 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 11. Buscando detalhes do manejo...
+[06-Jul-2025 16:03:05 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Secagem', Rec_Meses='', Rec_Dias=''
+[06-Jul-2025 16:03:05 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[06-Jul-2025 16:03:05 Europe/Berlin] ==================================================
+[09-Jul-2025 18:55:48 Europe/Berlin] EventoController: Ação recebida: update
+[09-Jul-2025 18:55:48 Europe/Berlin] EventoController: Processando ação 'update'.
+[09-Jul-2025 18:55:56 Europe/Berlin] EventoController: Ação recebida: update
+[09-Jul-2025 18:55:56 Europe/Berlin] EventoController: Processando ação 'update'.
+[09-Jul-2025 18:56:26 Europe/Berlin] EventoController: Ação recebida: update
+[09-Jul-2025 18:56:26 Europe/Berlin] EventoController: Processando ação 'update'.
+[09-Jul-2025 18:56:35 Europe/Berlin] EventoController: Ação recebida: update
+[09-Jul-2025 18:56:35 Europe/Berlin] EventoController: Processando ação 'update'.
+[09-Jul-2025 18:56:44 Europe/Berlin] EventoController: Ação recebida: update
+[09-Jul-2025 18:56:44 Europe/Berlin] EventoController: Processando ação 'update'.
+[09-Jul-2025 18:56:53 Europe/Berlin] EventoController: Ação recebida: update
+[09-Jul-2025 18:56:53 Europe/Berlin] EventoController: Processando ação 'update'.
+[11-Jul-2025 20:28:13 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[11-Jul-2025 20:28:13 Europe/Berlin] ==================================================
+[11-Jul-2025 20:28:13 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[11-Jul-2025 20:28:13 Europe/Berlin] EventoController: Tentando concluir evento ID: 16
+[11-Jul-2025 20:28:13 Europe/Berlin] EventoController: Evento ID 16 lido com sucesso. Verificando recorrência...
+[11-Jul-2025 20:28:13 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 6. Buscando detalhes do manejo...
+[11-Jul-2025 20:28:13 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Secagem', Rec_Meses='', Rec_Dias=''
+[11-Jul-2025 20:28:13 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[11-Jul-2025 20:28:13 Europe/Berlin] ==================================================
+[12-Jul-2025 20:46:49 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[12-Jul-2025 20:46:49 Europe/Berlin] ==================================================
+[12-Jul-2025 20:46:49 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[12-Jul-2025 20:46:49 Europe/Berlin] EventoController: Tentando concluir evento ID: 120
+[12-Jul-2025 20:46:49 Europe/Berlin] EventoController: Evento ID 120 lido com sucesso. Verificando recorrência...
+[12-Jul-2025 20:46:49 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 19. Buscando detalhes do manejo...
+[12-Jul-2025 20:46:49 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='BST', Rec_Meses='', Rec_Dias='12'
+[12-Jul-2025 20:46:49 Europe/Berlin] EventoController: CONDIÇÕES ATENDIDAS! Criando próximo evento recorrente com intervalo de P12D.
+[12-Jul-2025 20:46:49 Europe/Berlin] EventoController: SUCESSO! Novo evento recorrente criado.
+[12-Jul-2025 20:46:49 Europe/Berlin] ==================================================
+[13-Jul-2025 00:39:28 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[13-Jul-2025 00:39:28 Europe/Berlin] ==================================================
+[13-Jul-2025 00:39:28 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[13-Jul-2025 00:39:28 Europe/Berlin] EventoController: Tentando concluir evento ID: 40
+[13-Jul-2025 00:39:28 Europe/Berlin] EventoController: Evento ID 40 lido com sucesso. Verificando recorrência...
+[13-Jul-2025 00:39:28 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 14. Buscando detalhes do manejo...
+[13-Jul-2025 00:39:28 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Secagem', Rec_Meses='', Rec_Dias=''
+[13-Jul-2025 00:39:28 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[13-Jul-2025 00:39:28 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:24 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 15:38:24 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:24 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 15:38:24 Europe/Berlin] EventoController: Tentando concluir evento ID: 146
+[18-Jul-2025 15:38:24 Europe/Berlin] EventoController: Evento ID 146 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 15:38:24 Europe/Berlin] EventoController: Evento ID 146 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[18-Jul-2025 15:38:24 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:26 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 15:38:26 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:26 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 15:38:26 Europe/Berlin] EventoController: Tentando concluir evento ID: 149
+[18-Jul-2025 15:38:26 Europe/Berlin] EventoController: Evento ID 149 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 15:38:26 Europe/Berlin] EventoController: Evento ID 149 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[18-Jul-2025 15:38:26 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:28 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 15:38:28 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:28 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 15:38:28 Europe/Berlin] EventoController: Tentando concluir evento ID: 152
+[18-Jul-2025 15:38:28 Europe/Berlin] EventoController: Evento ID 152 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 15:38:28 Europe/Berlin] EventoController: Evento ID 152 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[18-Jul-2025 15:38:28 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:29 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 15:38:29 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:29 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 15:38:29 Europe/Berlin] EventoController: Tentando concluir evento ID: 155
+[18-Jul-2025 15:38:29 Europe/Berlin] EventoController: Evento ID 155 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 15:38:29 Europe/Berlin] EventoController: Evento ID 155 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[18-Jul-2025 15:38:29 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:31 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 15:38:31 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:31 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 15:38:31 Europe/Berlin] EventoController: Tentando concluir evento ID: 158
+[18-Jul-2025 15:38:31 Europe/Berlin] EventoController: Evento ID 158 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 15:38:31 Europe/Berlin] EventoController: Evento ID 158 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[18-Jul-2025 15:38:31 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:32 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 15:38:32 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:32 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 15:38:32 Europe/Berlin] EventoController: Tentando concluir evento ID: 161
+[18-Jul-2025 15:38:32 Europe/Berlin] EventoController: Evento ID 161 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 15:38:32 Europe/Berlin] EventoController: Evento ID 161 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[18-Jul-2025 15:38:32 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:35 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 15:38:35 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:35 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 15:38:35 Europe/Berlin] EventoController: Tentando concluir evento ID: 164
+[18-Jul-2025 15:38:35 Europe/Berlin] EventoController: Evento ID 164 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 15:38:35 Europe/Berlin] EventoController: Evento ID 164 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[18-Jul-2025 15:38:35 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:37 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 15:38:37 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:37 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 15:38:37 Europe/Berlin] EventoController: Tentando concluir evento ID: 167
+[18-Jul-2025 15:38:37 Europe/Berlin] EventoController: Evento ID 167 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 15:38:37 Europe/Berlin] EventoController: Evento ID 167 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[18-Jul-2025 15:38:37 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:44 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 15:38:44 Europe/Berlin] ==================================================
+[18-Jul-2025 15:38:44 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 15:38:44 Europe/Berlin] EventoController: Tentando concluir evento ID: 25
+[18-Jul-2025 15:38:44 Europe/Berlin] EventoController: Evento ID 25 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 15:38:44 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 9. Buscando detalhes do manejo...
+[18-Jul-2025 15:38:44 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Secagem', Rec_Meses='', Rec_Dias=''
+[18-Jul-2025 15:38:44 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[18-Jul-2025 15:38:44 Europe/Berlin] ==================================================
+[18-Jul-2025 20:51:51 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 20:51:51 Europe/Berlin] ==================================================
+[18-Jul-2025 20:51:51 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 20:51:51 Europe/Berlin] EventoController: Tentando concluir evento ID: 88
+[18-Jul-2025 20:51:51 Europe/Berlin] EventoController: Evento ID 88 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 20:51:51 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 49. Buscando detalhes do manejo...
+[18-Jul-2025 20:51:51 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[18-Jul-2025 20:51:51 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[18-Jul-2025 20:51:51 Europe/Berlin] ==================================================
+[18-Jul-2025 23:53:00 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 23:53:00 Europe/Berlin] ==================================================
+[18-Jul-2025 23:53:00 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 23:53:00 Europe/Berlin] EventoController: Tentando concluir evento ID: 170
+[18-Jul-2025 23:53:00 Europe/Berlin] EventoController: Evento ID 170 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 23:53:00 Europe/Berlin] EventoController: Evento ID 170 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[18-Jul-2025 23:53:00 Europe/Berlin] ==================================================
+[18-Jul-2025 23:53:02 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 23:53:02 Europe/Berlin] ==================================================
+[18-Jul-2025 23:53:02 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 23:53:02 Europe/Berlin] EventoController: Tentando concluir evento ID: 173
+[18-Jul-2025 23:53:02 Europe/Berlin] EventoController: Evento ID 173 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 23:53:02 Europe/Berlin] EventoController: Evento ID 173 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[18-Jul-2025 23:53:02 Europe/Berlin] ==================================================
+[18-Jul-2025 23:53:04 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 23:53:04 Europe/Berlin] ==================================================
+[18-Jul-2025 23:53:04 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 23:53:04 Europe/Berlin] EventoController: Tentando concluir evento ID: 176
+[18-Jul-2025 23:53:04 Europe/Berlin] EventoController: Evento ID 176 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 23:53:04 Europe/Berlin] EventoController: Evento ID 176 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[18-Jul-2025 23:53:04 Europe/Berlin] ==================================================
+[18-Jul-2025 23:53:06 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[18-Jul-2025 23:53:06 Europe/Berlin] ==================================================
+[18-Jul-2025 23:53:06 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[18-Jul-2025 23:53:06 Europe/Berlin] EventoController: Tentando concluir evento ID: 179
+[18-Jul-2025 23:53:06 Europe/Berlin] EventoController: Evento ID 179 lido com sucesso. Verificando recorrência...
+[18-Jul-2025 23:53:06 Europe/Berlin] EventoController: Evento ID 179 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[18-Jul-2025 23:53:06 Europe/Berlin] ==================================================
+[19-Jul-2025 23:08:57 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[19-Jul-2025 23:08:57 Europe/Berlin] ==================================================
+[19-Jul-2025 23:08:57 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[19-Jul-2025 23:08:57 Europe/Berlin] EventoController: Tentando concluir evento ID: 200
+[19-Jul-2025 23:08:57 Europe/Berlin] EventoController: Evento ID 200 lido com sucesso. Verificando recorrência...
+[19-Jul-2025 23:08:57 Europe/Berlin] EventoController: Evento ID 200 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[19-Jul-2025 23:08:57 Europe/Berlin] ==================================================
+[19-Jul-2025 23:09:03 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[19-Jul-2025 23:09:03 Europe/Berlin] ==================================================
+[19-Jul-2025 23:09:03 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[19-Jul-2025 23:09:03 Europe/Berlin] EventoController: Tentando concluir evento ID: 197
+[19-Jul-2025 23:09:03 Europe/Berlin] EventoController: Evento ID 197 lido com sucesso. Verificando recorrência...
+[19-Jul-2025 23:09:03 Europe/Berlin] EventoController: Evento ID 197 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[19-Jul-2025 23:09:03 Europe/Berlin] ==================================================
+[19-Jul-2025 23:09:21 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[19-Jul-2025 23:09:21 Europe/Berlin] ==================================================
+[19-Jul-2025 23:09:21 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[19-Jul-2025 23:09:21 Europe/Berlin] EventoController: Tentando concluir evento ID: 191
+[19-Jul-2025 23:09:21 Europe/Berlin] EventoController: Evento ID 191 lido com sucesso. Verificando recorrência...
+[19-Jul-2025 23:09:21 Europe/Berlin] EventoController: Evento ID 191 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[19-Jul-2025 23:09:21 Europe/Berlin] ==================================================
+[19-Jul-2025 23:10:12 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[19-Jul-2025 23:10:12 Europe/Berlin] ==================================================
+[19-Jul-2025 23:10:12 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[19-Jul-2025 23:10:12 Europe/Berlin] EventoController: Tentando concluir evento ID: 194
+[19-Jul-2025 23:10:12 Europe/Berlin] EventoController: Evento ID 194 lido com sucesso. Verificando recorrência...
+[19-Jul-2025 23:10:12 Europe/Berlin] EventoController: Evento ID 194 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[19-Jul-2025 23:10:12 Europe/Berlin] ==================================================
+[19-Jul-2025 23:11:51 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[19-Jul-2025 23:11:51 Europe/Berlin] ==================================================
+[19-Jul-2025 23:11:51 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[19-Jul-2025 23:11:51 Europe/Berlin] EventoController: Tentando concluir evento ID: 185
+[19-Jul-2025 23:11:51 Europe/Berlin] EventoController: Evento ID 185 lido com sucesso. Verificando recorrência...
+[19-Jul-2025 23:11:51 Europe/Berlin] EventoController: Evento ID 185 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[19-Jul-2025 23:11:51 Europe/Berlin] ==================================================
+[19-Jul-2025 23:12:26 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[19-Jul-2025 23:12:26 Europe/Berlin] ==================================================
+[19-Jul-2025 23:12:26 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[19-Jul-2025 23:12:26 Europe/Berlin] EventoController: Tentando concluir evento ID: 182
+[19-Jul-2025 23:12:26 Europe/Berlin] EventoController: Evento ID 182 lido com sucesso. Verificando recorrência...
+[19-Jul-2025 23:12:26 Europe/Berlin] EventoController: Evento ID 182 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[19-Jul-2025 23:12:26 Europe/Berlin] ==================================================
+[19-Jul-2025 23:12:48 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[19-Jul-2025 23:12:48 Europe/Berlin] ==================================================
+[19-Jul-2025 23:12:48 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[19-Jul-2025 23:12:48 Europe/Berlin] EventoController: Tentando concluir evento ID: 188
+[19-Jul-2025 23:12:48 Europe/Berlin] EventoController: Evento ID 188 lido com sucesso. Verificando recorrência...
+[19-Jul-2025 23:12:48 Europe/Berlin] EventoController: Evento ID 188 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[19-Jul-2025 23:12:48 Europe/Berlin] ==================================================
+[24-Jul-2025 23:28:00 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[24-Jul-2025 23:28:00 Europe/Berlin] ==================================================
+[24-Jul-2025 23:28:00 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[24-Jul-2025 23:28:00 Europe/Berlin] EventoController: Tentando concluir evento ID: 156
+[24-Jul-2025 23:28:00 Europe/Berlin] EventoController: Evento ID 156 lido com sucesso. Verificando recorrência...
+[24-Jul-2025 23:28:00 Europe/Berlin] EventoController: Evento ID 156 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[24-Jul-2025 23:28:00 Europe/Berlin] ==================================================
+[24-Jul-2025 23:29:57 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[24-Jul-2025 23:29:57 Europe/Berlin] ==================================================
+[24-Jul-2025 23:29:57 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[24-Jul-2025 23:29:57 Europe/Berlin] EventoController: Tentando concluir evento ID: 162
+[24-Jul-2025 23:29:57 Europe/Berlin] EventoController: Evento ID 162 lido com sucesso. Verificando recorrência...
+[24-Jul-2025 23:29:57 Europe/Berlin] EventoController: Evento ID 162 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[24-Jul-2025 23:29:57 Europe/Berlin] ==================================================
+[24-Jul-2025 23:30:32 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[24-Jul-2025 23:30:32 Europe/Berlin] ==================================================
+[24-Jul-2025 23:30:32 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[24-Jul-2025 23:30:32 Europe/Berlin] EventoController: Tentando concluir evento ID: 159
+[24-Jul-2025 23:30:32 Europe/Berlin] EventoController: Evento ID 159 lido com sucesso. Verificando recorrência...
+[24-Jul-2025 23:30:32 Europe/Berlin] EventoController: Evento ID 159 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[24-Jul-2025 23:30:32 Europe/Berlin] ==================================================
+[24-Jul-2025 23:31:43 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[24-Jul-2025 23:31:43 Europe/Berlin] ==================================================
+[24-Jul-2025 23:31:43 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[24-Jul-2025 23:31:43 Europe/Berlin] EventoController: Tentando concluir evento ID: 147
+[24-Jul-2025 23:31:43 Europe/Berlin] EventoController: Evento ID 147 lido com sucesso. Verificando recorrência...
+[24-Jul-2025 23:31:43 Europe/Berlin] EventoController: Evento ID 147 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[24-Jul-2025 23:31:43 Europe/Berlin] ==================================================
+[24-Jul-2025 23:33:05 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[24-Jul-2025 23:33:05 Europe/Berlin] ==================================================
+[24-Jul-2025 23:33:05 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[24-Jul-2025 23:33:05 Europe/Berlin] EventoController: Tentando concluir evento ID: 168
+[24-Jul-2025 23:33:05 Europe/Berlin] EventoController: Evento ID 168 lido com sucesso. Verificando recorrência...
+[24-Jul-2025 23:33:05 Europe/Berlin] EventoController: Evento ID 168 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[24-Jul-2025 23:33:05 Europe/Berlin] ==================================================
+[24-Jul-2025 23:33:55 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[24-Jul-2025 23:33:55 Europe/Berlin] ==================================================
+[24-Jul-2025 23:33:55 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[24-Jul-2025 23:33:55 Europe/Berlin] EventoController: Tentando concluir evento ID: 150
+[24-Jul-2025 23:33:55 Europe/Berlin] EventoController: Evento ID 150 lido com sucesso. Verificando recorrência...
+[24-Jul-2025 23:33:55 Europe/Berlin] EventoController: Evento ID 150 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[24-Jul-2025 23:33:55 Europe/Berlin] ==================================================
+[24-Jul-2025 23:38:35 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[24-Jul-2025 23:38:35 Europe/Berlin] ==================================================
+[24-Jul-2025 23:38:35 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[24-Jul-2025 23:38:35 Europe/Berlin] EventoController: Tentando concluir evento ID: 165
+[24-Jul-2025 23:38:35 Europe/Berlin] EventoController: Evento ID 165 lido com sucesso. Verificando recorrência...
+[24-Jul-2025 23:38:35 Europe/Berlin] EventoController: Evento ID 165 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[24-Jul-2025 23:38:35 Europe/Berlin] ==================================================
+[24-Jul-2025 23:38:47 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[24-Jul-2025 23:38:47 Europe/Berlin] ==================================================
+[24-Jul-2025 23:38:47 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[24-Jul-2025 23:38:47 Europe/Berlin] EventoController: Tentando concluir evento ID: 153
+[24-Jul-2025 23:38:47 Europe/Berlin] EventoController: Evento ID 153 lido com sucesso. Verificando recorrência...
+[24-Jul-2025 23:38:47 Europe/Berlin] EventoController: Evento ID 153 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[24-Jul-2025 23:38:47 Europe/Berlin] ==================================================
+[25-Jul-2025 13:23:11 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[25-Jul-2025 13:23:11 Europe/Berlin] ==================================================
+[25-Jul-2025 13:23:11 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[25-Jul-2025 13:23:11 Europe/Berlin] EventoController: Tentando concluir evento ID: 130
+[25-Jul-2025 13:23:11 Europe/Berlin] EventoController: Evento ID 130 lido com sucesso. Verificando recorrência...
+[25-Jul-2025 13:23:11 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 19. Buscando detalhes do manejo...
+[25-Jul-2025 13:23:11 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='BST', Rec_Meses='', Rec_Dias='12'
+[25-Jul-2025 13:23:11 Europe/Berlin] EventoController: CONDIÇÕES ATENDIDAS! Criando próximo evento recorrente com intervalo de P12D.
+[25-Jul-2025 13:23:11 Europe/Berlin] EventoController: SUCESSO! Novo evento recorrente criado.
+[25-Jul-2025 13:23:11 Europe/Berlin] ==================================================
+[25-Jul-2025 22:56:08 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[25-Jul-2025 22:56:08 Europe/Berlin] ==================================================
+[25-Jul-2025 22:56:08 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[25-Jul-2025 22:56:08 Europe/Berlin] EventoController: Tentando concluir evento ID: 148
+[25-Jul-2025 22:56:08 Europe/Berlin] EventoController: Evento ID 148 lido com sucesso. Verificando recorrência...
+[25-Jul-2025 22:56:08 Europe/Berlin] EventoController: Evento ID 148 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[25-Jul-2025 22:56:08 Europe/Berlin] ==================================================
+[25-Jul-2025 23:01:05 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[25-Jul-2025 23:01:05 Europe/Berlin] ==================================================
+[25-Jul-2025 23:01:05 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[25-Jul-2025 23:01:05 Europe/Berlin] EventoController: Tentando concluir evento ID: 163
+[25-Jul-2025 23:01:05 Europe/Berlin] EventoController: Evento ID 163 lido com sucesso. Verificando recorrência...
+[25-Jul-2025 23:01:05 Europe/Berlin] EventoController: Evento ID 163 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[25-Jul-2025 23:01:05 Europe/Berlin] ==================================================
+[25-Jul-2025 23:06:04 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[25-Jul-2025 23:06:04 Europe/Berlin] ==================================================
+[25-Jul-2025 23:06:04 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[25-Jul-2025 23:06:04 Europe/Berlin] EventoController: Tentando concluir evento ID: 157
+[25-Jul-2025 23:06:04 Europe/Berlin] EventoController: Evento ID 157 lido com sucesso. Verificando recorrência...
+[25-Jul-2025 23:06:04 Europe/Berlin] EventoController: Evento ID 157 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[25-Jul-2025 23:06:04 Europe/Berlin] ==================================================
+[25-Jul-2025 23:11:25 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[25-Jul-2025 23:11:25 Europe/Berlin] ==================================================
+[25-Jul-2025 23:11:25 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[25-Jul-2025 23:11:25 Europe/Berlin] EventoController: Tentando concluir evento ID: 154
+[25-Jul-2025 23:11:25 Europe/Berlin] EventoController: Evento ID 154 lido com sucesso. Verificando recorrência...
+[25-Jul-2025 23:11:25 Europe/Berlin] EventoController: Evento ID 154 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[25-Jul-2025 23:11:25 Europe/Berlin] ==================================================
+[25-Jul-2025 23:17:25 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[25-Jul-2025 23:17:25 Europe/Berlin] ==================================================
+[25-Jul-2025 23:17:25 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[25-Jul-2025 23:17:25 Europe/Berlin] EventoController: Tentando concluir evento ID: 166
+[25-Jul-2025 23:17:25 Europe/Berlin] EventoController: Evento ID 166 lido com sucesso. Verificando recorrência...
+[25-Jul-2025 23:17:25 Europe/Berlin] EventoController: Evento ID 166 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[25-Jul-2025 23:17:25 Europe/Berlin] ==================================================
+[25-Jul-2025 23:22:20 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[25-Jul-2025 23:22:20 Europe/Berlin] ==================================================
+[25-Jul-2025 23:22:20 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[25-Jul-2025 23:22:20 Europe/Berlin] EventoController: Tentando concluir evento ID: 160
+[25-Jul-2025 23:22:20 Europe/Berlin] EventoController: Evento ID 160 lido com sucesso. Verificando recorrência...
+[25-Jul-2025 23:22:20 Europe/Berlin] EventoController: Evento ID 160 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[25-Jul-2025 23:22:20 Europe/Berlin] ==================================================
+[25-Jul-2025 23:28:32 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[25-Jul-2025 23:28:32 Europe/Berlin] ==================================================
+[25-Jul-2025 23:28:32 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[25-Jul-2025 23:28:32 Europe/Berlin] EventoController: Tentando concluir evento ID: 151
+[25-Jul-2025 23:28:32 Europe/Berlin] EventoController: Evento ID 151 lido com sucesso. Verificando recorrência...
+[25-Jul-2025 23:28:32 Europe/Berlin] EventoController: Evento ID 151 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[25-Jul-2025 23:28:32 Europe/Berlin] ==================================================
+[25-Jul-2025 23:35:09 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[25-Jul-2025 23:35:09 Europe/Berlin] ==================================================
+[25-Jul-2025 23:35:09 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[25-Jul-2025 23:35:09 Europe/Berlin] EventoController: Tentando concluir evento ID: 169
+[25-Jul-2025 23:35:09 Europe/Berlin] EventoController: Evento ID 169 lido com sucesso. Verificando recorrência...
+[25-Jul-2025 23:35:09 Europe/Berlin] EventoController: Evento ID 169 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[25-Jul-2025 23:35:09 Europe/Berlin] ==================================================
+[26-Jul-2025 23:27:53 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[26-Jul-2025 23:27:53 Europe/Berlin] ==================================================
+[26-Jul-2025 23:27:53 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[26-Jul-2025 23:27:53 Europe/Berlin] EventoController: Tentando concluir evento ID: 172
+[26-Jul-2025 23:27:53 Europe/Berlin] EventoController: Evento ID 172 lido com sucesso. Verificando recorrência...
+[26-Jul-2025 23:27:53 Europe/Berlin] EventoController: Evento ID 172 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[26-Jul-2025 23:27:53 Europe/Berlin] ==================================================
+[26-Jul-2025 23:29:17 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[26-Jul-2025 23:29:17 Europe/Berlin] ==================================================
+[26-Jul-2025 23:29:17 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[26-Jul-2025 23:29:17 Europe/Berlin] EventoController: Tentando concluir evento ID: 181
+[26-Jul-2025 23:29:17 Europe/Berlin] EventoController: Evento ID 181 lido com sucesso. Verificando recorrência...
+[26-Jul-2025 23:29:17 Europe/Berlin] EventoController: Evento ID 181 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[26-Jul-2025 23:29:17 Europe/Berlin] ==================================================
+[26-Jul-2025 23:32:55 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[26-Jul-2025 23:32:55 Europe/Berlin] ==================================================
+[26-Jul-2025 23:32:55 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[26-Jul-2025 23:32:55 Europe/Berlin] EventoController: Tentando concluir evento ID: 178
+[26-Jul-2025 23:32:55 Europe/Berlin] EventoController: Evento ID 178 lido com sucesso. Verificando recorrência...
+[26-Jul-2025 23:32:55 Europe/Berlin] EventoController: Evento ID 178 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[26-Jul-2025 23:32:55 Europe/Berlin] ==================================================
+[26-Jul-2025 23:33:23 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[26-Jul-2025 23:33:23 Europe/Berlin] ==================================================
+[26-Jul-2025 23:33:23 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[26-Jul-2025 23:33:23 Europe/Berlin] EventoController: Tentando concluir evento ID: 172
+[26-Jul-2025 23:33:23 Europe/Berlin] EventoController: Evento ID 172 lido com sucesso. Verificando recorrência...
+[26-Jul-2025 23:33:23 Europe/Berlin] EventoController: Evento ID 172 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[26-Jul-2025 23:33:23 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:23 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:23 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:23 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:23 Europe/Berlin] EventoController: Tentando concluir evento ID: 171
+[29-Jul-2025 03:24:23 Europe/Berlin] EventoController: Evento ID 171 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:23 Europe/Berlin] EventoController: Evento ID 171 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:23 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:26 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:26 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:26 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:26 Europe/Berlin] EventoController: Tentando concluir evento ID: 174
+[29-Jul-2025 03:24:26 Europe/Berlin] EventoController: Evento ID 174 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:26 Europe/Berlin] EventoController: Evento ID 174 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:26 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:28 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:28 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:28 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:28 Europe/Berlin] EventoController: Tentando concluir evento ID: 177
+[29-Jul-2025 03:24:28 Europe/Berlin] EventoController: Evento ID 177 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:28 Europe/Berlin] EventoController: Evento ID 177 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:28 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:29 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:29 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:29 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:29 Europe/Berlin] EventoController: Tentando concluir evento ID: 180
+[29-Jul-2025 03:24:29 Europe/Berlin] EventoController: Evento ID 180 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:29 Europe/Berlin] EventoController: Evento ID 180 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:29 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:31 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:31 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:31 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:31 Europe/Berlin] EventoController: Tentando concluir evento ID: 183
+[29-Jul-2025 03:24:31 Europe/Berlin] EventoController: Evento ID 183 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:31 Europe/Berlin] EventoController: Evento ID 183 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:31 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:33 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:33 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:33 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:33 Europe/Berlin] EventoController: Tentando concluir evento ID: 186
+[29-Jul-2025 03:24:33 Europe/Berlin] EventoController: Evento ID 186 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:33 Europe/Berlin] EventoController: Evento ID 186 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:33 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:35 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:35 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:35 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:35 Europe/Berlin] EventoController: Tentando concluir evento ID: 189
+[29-Jul-2025 03:24:35 Europe/Berlin] EventoController: Evento ID 189 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:35 Europe/Berlin] EventoController: Evento ID 189 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:35 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:37 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:37 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:37 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:37 Europe/Berlin] EventoController: Tentando concluir evento ID: 192
+[29-Jul-2025 03:24:37 Europe/Berlin] EventoController: Evento ID 192 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:37 Europe/Berlin] EventoController: Evento ID 192 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:37 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:39 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:39 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:39 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:39 Europe/Berlin] EventoController: Tentando concluir evento ID: 195
+[29-Jul-2025 03:24:39 Europe/Berlin] EventoController: Evento ID 195 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:39 Europe/Berlin] EventoController: Evento ID 195 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:39 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:41 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:41 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:41 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:41 Europe/Berlin] EventoController: Tentando concluir evento ID: 198
+[29-Jul-2025 03:24:41 Europe/Berlin] EventoController: Evento ID 198 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:41 Europe/Berlin] EventoController: Evento ID 198 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:41 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:43 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:43 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:43 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:43 Europe/Berlin] EventoController: Tentando concluir evento ID: 201
+[29-Jul-2025 03:24:43 Europe/Berlin] EventoController: Evento ID 201 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:43 Europe/Berlin] EventoController: Evento ID 201 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:43 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:47 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:47 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:47 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:47 Europe/Berlin] EventoController: Tentando concluir evento ID: 175
+[29-Jul-2025 03:24:47 Europe/Berlin] EventoController: Evento ID 175 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:47 Europe/Berlin] EventoController: Evento ID 175 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:47 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:50 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:50 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:50 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:50 Europe/Berlin] EventoController: Tentando concluir evento ID: 184
+[29-Jul-2025 03:24:50 Europe/Berlin] EventoController: Evento ID 184 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:50 Europe/Berlin] EventoController: Evento ID 184 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:50 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:52 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:52 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:52 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:52 Europe/Berlin] EventoController: Tentando concluir evento ID: 187
+[29-Jul-2025 03:24:52 Europe/Berlin] EventoController: Evento ID 187 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:52 Europe/Berlin] EventoController: Evento ID 187 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:52 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:54 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:54 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:54 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:54 Europe/Berlin] EventoController: Tentando concluir evento ID: 190
+[29-Jul-2025 03:24:54 Europe/Berlin] EventoController: Evento ID 190 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:54 Europe/Berlin] EventoController: Evento ID 190 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:54 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:56 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:56 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:56 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:56 Europe/Berlin] EventoController: Tentando concluir evento ID: 193
+[29-Jul-2025 03:24:56 Europe/Berlin] EventoController: Evento ID 193 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:56 Europe/Berlin] EventoController: Evento ID 193 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:56 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:58 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:24:58 Europe/Berlin] ==================================================
+[29-Jul-2025 03:24:58 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:24:58 Europe/Berlin] EventoController: Tentando concluir evento ID: 196
+[29-Jul-2025 03:24:58 Europe/Berlin] EventoController: Evento ID 196 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:24:58 Europe/Berlin] EventoController: Evento ID 196 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:24:58 Europe/Berlin] ==================================================
+[29-Jul-2025 03:25:00 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:25:00 Europe/Berlin] ==================================================
+[29-Jul-2025 03:25:00 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:25:00 Europe/Berlin] EventoController: Tentando concluir evento ID: 199
+[29-Jul-2025 03:25:00 Europe/Berlin] EventoController: Evento ID 199 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:25:00 Europe/Berlin] EventoController: Evento ID 199 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:25:00 Europe/Berlin] ==================================================
+[29-Jul-2025 03:25:02 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 03:25:02 Europe/Berlin] ==================================================
+[29-Jul-2025 03:25:02 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 03:25:02 Europe/Berlin] EventoController: Tentando concluir evento ID: 202
+[29-Jul-2025 03:25:02 Europe/Berlin] EventoController: Evento ID 202 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 03:25:02 Europe/Berlin] EventoController: Evento ID 202 não está vinculado a um registro de manejo. Nenhuma recorrência a ser criada.
+[29-Jul-2025 03:25:02 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:09 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:09 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:09 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:09 Europe/Berlin] EventoController: Tentando concluir evento ID: 68
+[29-Jul-2025 23:56:09 Europe/Berlin] EventoController: Evento ID 68 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:09 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 29. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:09 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Vacinas', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:09 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:09 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:10 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:10 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:10 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:10 Europe/Berlin] EventoController: Tentando concluir evento ID: 69
+[29-Jul-2025 23:56:10 Europe/Berlin] EventoController: Evento ID 69 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:10 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 30. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:10 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:10 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:11 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:12 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:12 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:12 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:12 Europe/Berlin] EventoController: Tentando concluir evento ID: 71
+[29-Jul-2025 23:56:12 Europe/Berlin] EventoController: Evento ID 71 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:12 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 32. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:12 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Vacinas', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:12 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:12 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:13 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:13 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:13 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:13 Europe/Berlin] EventoController: Tentando concluir evento ID: 72
+[29-Jul-2025 23:56:13 Europe/Berlin] EventoController: Evento ID 72 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:13 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 33. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:13 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:13 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:13 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:15 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:15 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:15 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:15 Europe/Berlin] EventoController: Tentando concluir evento ID: 74
+[29-Jul-2025 23:56:15 Europe/Berlin] EventoController: Evento ID 74 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:15 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 35. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:15 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Vacinas', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:15 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:15 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:16 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:16 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:16 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:16 Europe/Berlin] EventoController: Tentando concluir evento ID: 75
+[29-Jul-2025 23:56:16 Europe/Berlin] EventoController: Evento ID 75 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:16 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 36. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:16 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:16 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:16 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:17 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:17 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:17 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:17 Europe/Berlin] EventoController: Tentando concluir evento ID: 77
+[29-Jul-2025 23:56:17 Europe/Berlin] EventoController: Evento ID 77 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:17 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 38. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:17 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Vacinas', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:17 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:17 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:19 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:19 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:19 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:19 Europe/Berlin] EventoController: Tentando concluir evento ID: 78
+[29-Jul-2025 23:56:19 Europe/Berlin] EventoController: Evento ID 78 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:19 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 39. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:19 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:19 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:19 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:22 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:22 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:22 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:22 Europe/Berlin] EventoController: Tentando concluir evento ID: 80
+[29-Jul-2025 23:56:22 Europe/Berlin] EventoController: Evento ID 80 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:22 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 41. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:22 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Vacinas', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:22 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:22 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:23 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:23 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:23 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:23 Europe/Berlin] EventoController: Tentando concluir evento ID: 81
+[29-Jul-2025 23:56:23 Europe/Berlin] EventoController: Evento ID 81 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:23 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 42. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:23 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:23 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:23 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:25 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:25 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:25 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:25 Europe/Berlin] EventoController: Tentando concluir evento ID: 83
+[29-Jul-2025 23:56:25 Europe/Berlin] EventoController: Evento ID 83 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:25 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 44. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:25 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Vacinas', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:25 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:25 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:27 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:27 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:27 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:27 Europe/Berlin] EventoController: Tentando concluir evento ID: 84
+[29-Jul-2025 23:56:27 Europe/Berlin] EventoController: Evento ID 84 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:27 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 45. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:27 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:27 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:27 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:28 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:28 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:28 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:28 Europe/Berlin] EventoController: Tentando concluir evento ID: 86
+[29-Jul-2025 23:56:28 Europe/Berlin] EventoController: Evento ID 86 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:28 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 47. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:28 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Vacinas', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:28 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:28 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:30 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:30 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:30 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:30 Europe/Berlin] EventoController: Tentando concluir evento ID: 87
+[29-Jul-2025 23:56:30 Europe/Berlin] EventoController: Evento ID 87 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:30 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 48. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:30 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:30 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:30 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:32 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:32 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:32 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:32 Europe/Berlin] EventoController: Tentando concluir evento ID: 91
+[29-Jul-2025 23:56:32 Europe/Berlin] EventoController: Evento ID 91 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:32 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 52. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:32 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:32 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:32 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:33 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:33 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:33 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:33 Europe/Berlin] EventoController: Tentando concluir evento ID: 94
+[29-Jul-2025 23:56:33 Europe/Berlin] EventoController: Evento ID 94 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:33 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 55. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:33 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:33 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:33 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:35 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:35 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:35 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:35 Europe/Berlin] EventoController: Tentando concluir evento ID: 97
+[29-Jul-2025 23:56:35 Europe/Berlin] EventoController: Evento ID 97 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:35 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 58. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:35 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:35 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:35 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:37 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:37 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:37 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:37 Europe/Berlin] EventoController: Tentando concluir evento ID: 100
+[29-Jul-2025 23:56:37 Europe/Berlin] EventoController: Evento ID 100 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:37 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 61. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:37 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:37 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:37 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:39 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:39 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:39 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:39 Europe/Berlin] EventoController: Tentando concluir evento ID: 103
+[29-Jul-2025 23:56:39 Europe/Berlin] EventoController: Evento ID 103 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:39 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 64. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:39 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:39 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:39 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:41 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:41 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:41 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:41 Europe/Berlin] EventoController: Tentando concluir evento ID: 106
+[29-Jul-2025 23:56:41 Europe/Berlin] EventoController: Evento ID 106 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:41 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 67. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:41 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:41 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:41 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:43 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[29-Jul-2025 23:56:43 Europe/Berlin] ==================================================
+[29-Jul-2025 23:56:43 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[29-Jul-2025 23:56:43 Europe/Berlin] EventoController: Tentando concluir evento ID: 109
+[29-Jul-2025 23:56:43 Europe/Berlin] EventoController: Evento ID 109 lido com sucesso. Verificando recorrência...
+[29-Jul-2025 23:56:43 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 70. Buscando detalhes do manejo...
+[29-Jul-2025 23:56:43 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Protocolo de Saúde', Rec_Meses='', Rec_Dias=''
+[29-Jul-2025 23:56:43 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[29-Jul-2025 23:56:43 Europe/Berlin] ==================================================
+[30-Jul-2025 04:18:03 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[30-Jul-2025 04:18:03 Europe/Berlin] ==================================================
+[30-Jul-2025 04:18:03 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[30-Jul-2025 04:18:03 Europe/Berlin] EventoController: Tentando concluir evento ID: 11
+[30-Jul-2025 04:18:03 Europe/Berlin] EventoController: Evento ID 11 lido com sucesso. Verificando recorrência...
+[30-Jul-2025 04:18:03 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 4. Buscando detalhes do manejo...
+[30-Jul-2025 04:18:03 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Secagem', Rec_Meses='', Rec_Dias=''
+[30-Jul-2025 04:18:03 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[30-Jul-2025 04:18:03 Europe/Berlin] ==================================================
+[03-Aug-2025 18:16:21 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[03-Aug-2025 18:16:21 Europe/Berlin] ==================================================
+[03-Aug-2025 18:16:21 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[03-Aug-2025 18:16:21 Europe/Berlin] EventoController: Tentando concluir evento ID: 33
+[03-Aug-2025 18:16:21 Europe/Berlin] EventoController: Evento ID 33 lido com sucesso. Verificando recorrência...
+[03-Aug-2025 18:16:21 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 11. Buscando detalhes do manejo...
+[03-Aug-2025 18:16:21 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Secagem', Rec_Meses='', Rec_Dias=''
+[03-Aug-2025 18:16:21 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[03-Aug-2025 18:16:21 Europe/Berlin] ==================================================
+[03-Aug-2025 18:16:24 Europe/Berlin] EventoController: Ação recebida: mark_complete
+[03-Aug-2025 18:16:24 Europe/Berlin] ==================================================
+[03-Aug-2025 18:16:24 Europe/Berlin] EventoController: Ação 'mark_complete' iniciada.
+[03-Aug-2025 18:16:24 Europe/Berlin] EventoController: Tentando concluir evento ID: 3
+[03-Aug-2025 18:16:24 Europe/Berlin] EventoController: Evento ID 3 lido com sucesso. Verificando recorrência...
+[03-Aug-2025 18:16:24 Europe/Berlin] EventoController: Evento vinculado ao registro de manejo ID: 1. Buscando detalhes do manejo...
+[03-Aug-2025 18:16:24 Europe/Berlin] EventoController: Detalhes do manejo: Tipo='Secagem', Rec_Meses='', Rec_Dias=''
+[03-Aug-2025 18:16:24 Europe/Berlin] EventoController: Condições para recorrência não atendidas. Nenhuma ação tomada.
+[03-Aug-2025 18:16:24 Europe/Berlin] ==================================================
