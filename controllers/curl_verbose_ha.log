@@ -1,0 +1,19 @@
+*   Trying 10.1.1.125:8123...
+* Connected to 10.1.1.125 (10.1.1.125) port 8123
+> POST /api/services/switch/turn_off HTTP/1.1
+Host: 10.1.1.125:8123
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI0MzEyMjRmNjYwOTI0Y2I3YjVjMDRhYmNiMzBkYzFjMyIsImlhdCI6MTc0OTE0MTU2OSwiZXhwIjoyMDY0NTAxNTY5fQ.mhwJpxXSlpfPEnUcyJqviwjZ8hNHygATJNwWu7GIUeM
+Content-Type: application/json
+Accept: application/json
+Content-Length: 42
+
+< HTTP/1.1 200 OK
+< Content-Type: application/json
+< Referrer-Policy: no-referrer
+< X-Content-Type-Options: nosniff
+< Server: 
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 2
+< Date: Thu, 07 Aug 2025 20:16:07 GMT
+< 
+* Connection #0 to host 10.1.1.125 left intact
